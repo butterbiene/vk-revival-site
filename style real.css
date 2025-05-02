@@ -1,0 +1,586 @@
+/* ==UserStyle==
+@name         VK 2016-2020 | ВКонтакте 2016-2020
+@namespace    vk.com/thesorry
+@preprocessor stylus
+@version      1.4.2
+==/UserStyle== */
+
+@-moz-document url-prefix("https://vk.com/") {
+#page_header_cont {
+    background-color: #4a76a8;
+    border-bottom: 1px solid #4872a3;
+    height: 41px;
+}
+.HeaderNav__item:first-child {
+    padding: 0;
+    background: url(/images/logo.png) 3px 8px no-repeat;
+    width: 170px;
+    position: relative;
+    left: -5px;
+}
+.vkuiSearch__field {
+    background-color: #224b7a;
+    height: 28px;
+    position: relative;
+    border-radius: 2px;
+}
+.TopHomeLink svg {
+    margin: 0 0 0-2px;
+    display: none;
+}
+.vkuiSearch__control {
+    color: #86a1bf !important;
+}
+div#page_layout {
+    width: 960px !important;
+}
+.page_header_wrap, #page_header {
+    max-width: 100%;
+    width: 960px;
+}
+.vkuiSplitCol.vkuiSplitCol--viewWidth-smallTabletPlus.vkuiInternalSplitCol--viewWidth-tabletPlus.vkuiSplitCol--spaced-none.vkuiInternalSplitCol--spaced-none.Profile__column {
+    width: 435px !important;
+}
+.OwnerPageCover--experiment .OwnerPageCover__in {
+    padding-top: var(--profile-cover-offset);
+    margin-top: calc(var(--profile-cover-offset)*-1);
+}
+
+#page_body {
+    margin-top: 37px;
+}
+
+.TopNavBtn .TopNavBtn__icon {
+    color: #acbfd4;
+}
+.vkuiSearch__input {
+    color: #4a76a8;
+}
+.TopNavBtn:hover {
+    background-color: rgb(0 0 0 / 14%);
+}
+.top_audio_player_btn svg {
+    color: #224b7a;
+}
+.top_audio_player:hover {
+    background-color: rgb(0 0 0 / 12%);
+}
+.top_audio_player .top_audio_player_title {
+    color: #c4d1de;
+}
+
+.top_audio_player_btn svg {
+    color: #c4d1de !important;
+}
+
+.audio_page_player__cover._audio_page_player__cover {
+    position: relative;
+    left: -95px;
+    margin: 0;
+    width: 56px;
+    height: 56px;
+    border-radius: 0px;
+}
+button.audio_page_player_ctrl.audio_page_player_play._audio_page_player_play {
+    position: relative;
+    left: 45px;
+}
+button.audio_page_player_ctrl.audio_page_player_prev {
+    position: relative;
+    left: 45px;
+}
+button.audio_page_player_ctrl.audio_page_player_next{
+    position: relative;
+    left: 45px;
+}
+
+.top_audio_player.top_audio_player_enabled {
+    height: 42px;
+}
+
+
+.vkuiImageBase__border, .vkuiImageBase__img {
+    border-radius: 3px !important;
+}
+.EcosystemAccountMenu_menu__vSkg6 {
+    border-radius: 3px !important;
+}
+
+
+.side_bar_inner {
+    padding: 5px 0 10px;
+}
+
+
+
+
+
+
+div#react_rootEcosystemServicesNavigationEntry {
+    display: none;
+}
+div#page_body {
+    width: 795px !important;
+}
+
+
+
+
+
+.Group-module__group--lRMIn.Group-module__groupModeCard--bGIrq.Group-module__groupModeCard--bGIrq {
+    padding: var(--group-padding, 0);
+    border-radius: 3px;
+}
+.ProfileHeader {
+    border-radius: 3px !important;
+}
+.ProfileHeader__in {
+    border-radius: 0px !important;
+}
+.FCPanel__list {
+    border-radius: 3px !important;
+}
+.page_block {
+    border-radius: 3px !important;
+}
+.redesigned-group-info {
+    border-radius: 0px !important;
+}
+.redesigned-group-cover {
+    height: 150px;
+    border-radius: 3px;
+}
+
+.page_post_sized_thumbs.clear_fix {
+    width: 395px !important;
+}
+a.page_post_thumb_wrap.image_cover.page_post_thumb_video.page_video_autoplayable.page_post_thumb_last_column.page_post_thumb_last_row {
+    width: 395px !important;
+}
+.Group-module__group--lRMIn.Group-module__groupModeCard--bGIrq.Group-module__groupModeCard--bGIrq {
+    padding: var(--group-padding, 0);
+    border-radius: 3px;
+    padding-right: 25px;
+}
+.UserRecommendationItem-module__in--MX6z5 {
+    border-radius: 3px;
+}
+.ui_rmenu_item:hover, .ui_rmenu_item_sel, .ui_rmenu_subitem:hover, .ui_rmenu_subitem_sel {
+    border-radius: 3px !important;
+}
+img.apps_feedRightAppsBlock__ava {
+    border-radius: 0px !important;
+}
+.PostBottomAction{
+    border-radius: 3px !important;
+}
+.PostButtonReactions__title._counter_anim_container:before {
+    content: 'Мне нравится ';
+}
+
+.PostBottomAction.PostBottomAction--withBg.comment._comment._reply_wrap.empty:after {
+    content: 'Коммент';
+    color: #626d7a;
+    font-weight: 500;
+}
+.ReactionsMenu.ReactionsMenu--extraHoverArea.ReactionsMenu--extraHoverAreaToTop {
+    border-radius: 3px !important;
+}
+.ui_actions_menu._ui_menu.ui_actions_menu--actionSheet {
+    border-radius: 3px !important;
+}
+a.FlatButton.FlatButton--secondary.FlatButton--size-m.FlatButton--wide {
+    border-radius: 3px !important;
+}
+.AvatarRich__outline--round.AvatarRich__outline--stories-unseen {
+    border-radius: 3px !important;
+}
+.PhotoPrimaryAttachment--thinBorder {
+    border-radius: 3px !important;
+}
+.AvatarRich--shadow::after {
+    border-radius: 3px !important;
+}
+a.stories_feed_preview_item.stories_feed_create {
+    border-radius: 3px !important;
+}
+.stories_feed_preview_item {
+    border-radius: 3px !important;
+}
+.stories_feed_preview_add {
+    border-radius: 3px !important;
+}
+.story_feed_new_item.stories_feed_preview_item .stories_feed_preview_author .stories_feed_preview_authors_wrapper::after {
+    border: 2px solid var(--sky_200);
+    border-radius: 3px;
+}
+.stories_feed_preview_authors_grid {
+    border-radius: 3px !important;
+}
+a.vkuiButton.vkuiButton--size-m.vkuiButton--mode-secondary.vkuiButton--appearance-accent.vkuiButton--align-center.vkuiTappable.vkuiInternalTappable.vkuiTappable--hasHover.vkuiTappable--hasActive {
+    border-radius: 3px !important;
+}
+.ow_ava.ow_ava_comm {
+    border-radius: 3px;
+}
+.OwnerContentTabPhotos__items .OwnerContentTabPhotos__item {
+    border-radius: 3px !important;
+}
+.vkuiSimpleCell.vkuiSimpleCell--sizeY-compact.vkuiSimpleCell--mult.DropdownActionSheetItem-module__container--vcrtv.DropdownActionSheetItem-module__containerSizeM--k31bW.DropdownActionSheetItem-module__containerHasBefore--ogkbC.vkuiTappable.vkuiInternalTappable.vkuiTappable--hasHover.vkuiTappable--hasActive.vkuiTappable--hover-background {
+    border-radius: 3px !important;
+}
+.vkuiPopper.vkuiPopover.DropdownActionSheet-module__container--xqPYM {
+    border-radius: 3px !important;
+}
+a#oct-tab-photos-control {
+    border-radius: 3px;
+}
+a#oct-tab-music-control {
+    border-radius: 3px;
+}
+a#oct-tab-albums-control {
+    border-radius: 3px;
+}
+a#oct-tab-short_videos-control {
+    border-radius: 3px;
+}
+a#oct-tab-photos-control {
+    border-radius: 3px;
+}
+.vkuiScrollArrow--size-m .vkuiScrollArrow__icon {
+    border-radius: 3px;
+}
+.ProfileIndicatorBadge__badgeOnline {
+    display: flex;
+    color: var(--vkui--color_background_positive);
+    background-color: var(--vkui--color_background_content);
+    border-radius: 3px !important;
+}
+use {
+    border-radius: 3px !important;
+}
+
+.vkuiHorizontalCell .vkuiHorizontalCell__body {
+    border-radius: 3px !IMPORTANT;
+}
+.OwnerContentTabs.OwnerContentTabs--placeholder-small {
+    width: 420px;
+}
+.ProfileGroupHorizontalCells {
+    width: 320px !important;
+}
+.PhotoAlbumPhotoItem-module__item--zpfca.vkuiTappable.vkuiInternalTappable {
+    border-radius: 3px !important;
+}
+a.VideoPreview-module__video--uO9Xu.VideoPreview-module__videoRounded--CvBzB.vkuiTappable.vkuiInternalTappable.vkuiTappable--hasActive {
+    border-radius: 3px !important;
+}
+.AvatarRich__badgeIcon--online {
+    color: var(--vkui--color_background_positive);
+    background-color: var(--vkui--color_background_content);
+    border-radius: 3px;
+}
+.box_title_wrap.box_grey {
+    border-radius: 3px !important;
+}
+.OwnerPageAvatar__underlay {
+    border-radius: 3px !important;
+}
+a.vkuiButton.vkuiButton--size-m.vkuiButton--mode-primary.vkuiButton--appearance-accent.vkuiButton--align-center.vkuiTappable.vkuiInternalTappable.vkuiTappable--hasHover.vkuiTappable--hasActive {
+    border-radius: 3px !IMPORTANT;
+}
+
+.ProfileIndicatorBadge__badgeLastSeenWrapper {
+    border-radius: 3px;
+}
+span.ProfileIndicatorBadge__badgeLastSeen {
+    border-radius: 3px !important;
+}
+.ProfileIndicatorBadge__badge {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+}
+.TextClamp-module__singleLine--mRCrF {
+    color: #4a76a8;
+    font-weight: 900;
+    font-family: tahoma;
+    font-size: 11px;
+}
+span.app_widget_image.app_widget_image_type_2 {
+    width: 120px;
+    height: 180px;
+}
+a.group_friends_image {
+    border-radius: 3px !important;
+}
+.group_friends_image.group_friends_image--more {
+    border-radius: 3px;
+}
+a.FlatButton.FlatButton--primary.FlatButton--size-m.redesigned-group-action {
+    border-radius: 3px;
+}
+span.AvatarRich.AvatarRich--sz-100.AvatarRich--shadow.redesigned-group-avatar-outline {
+    border-radius: 3px !important;
+}
+
+.page_post_sized_thumbs.clear_fix {
+    width: 755px !important;
+}
+.inline_video_wrap {
+    width: 755px !important;
+}
+.box_title_wrap {
+    border-radius: 0px;
+    background: #4c78aa;
+}
+.box_title {
+    color: white;
+    font-size: 12px;
+    font-family: tahoma;
+}
+.ui_gallery__inner--withTransitions {
+    display: flex;
+}
+
+
+.ProfileHeader--noCover .ProfileHeader__wrapper {
+    align-items: baseline;
+}
+.ProfileHeader--noCover .ProfileHeader__main {
+    display: inline-block;
+}
+.ProfileHeaderActions__in {
+    display: flex;
+    flex-direction: column;
+    align-items: normal;
+}
+.ProfileHeaderActions {
+    margin-left: 0;
+    margin-top: 10px;
+}
+.vkuiTypography--weight-1.vkuiTypography--weight-1.vkuiTypography--weight-1 {
+    font-weight: 600;
+    font-weight: var(--vkui--font_weight_accent1);
+    font-size: 17px;
+    font-family: tahoma;
+    color: #4a76a8;
+}
+.top_notify_btn_place {
+    height: 43px;
+    width: var(--header-height);
+}
+a.ui_tab.ui_tab_new.ui_tab_sel {
+    border-radius: 2px !important;
+}
+a.ui_tab.ui_tab_new {
+    border-radius: 2px;
+}
+section.vkuiInternalGroup.vkuiGroup.vkuiGroup--mode-card.vkuiInternalGroup--mode-card.vkuiGroup--padding-m.Group-module__group--lRMIn.Group-module__groupPaddingM--qj3wo.Group-module__groupModeCard--bGIrq.vkuiInternalGroupCard.Group-module__noTopRounded--asKbI.Group-module__noBottomRounded--JcwPi {
+    width: 762px;
+    top: -6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+button {
+    border-radius: 3px !important;
+}
+img {
+    border-radius: 3px !important;
+}
+}
+
+@-moz-document url-prefix("https://vk.com/") {
+div#feed_rmenu {
+    padding: 8px 8px 6px;
+    position: relative;
+    display: inline-flex;
+    left: -450px;
+    width: 778px !important;
+}
+a#ui_rmenu_friends {
+    display: none;
+}
+a#ui_rmenu_groups {
+    display: none;
+}
+div#feed_filters {
+    display: none;
+}
+}
+
+@-moz-document url-prefix("https://vk.com/friends") {
+div#friends {
+    width: 794px;  
+}
+div#friends_right_blocks_root {
+    display: none;
+}
+div#wide_column {
+   margin-top: 60px;
+}
+.ui_search_new.ui_search.ui_search_field_empty.friends_search_cont.ui_search_custom.ui_search_with_custom_controls._wrap {
+    width: 95% !important;
+}
+.page_block.ui_rmenu.ui_rmenu_pr._ui_rmenu_auto_expand {
+    display: flex;
+    position: relative;
+    left: -450px;
+    width: 779px;
+}
+}
+
+@-moz-document url-prefix("https://vk.com/feed") {
+div#wide_column {
+    width: 794px;
+    margin-top: 75px;
+}
+div#narrow_column {
+    position: relative !important;
+}
+
+.vkuiTypography.vkuiTypography--normalize.vkuiTypography--weight-2.TextClamp-module__singleLine--mRCrF.UserRecommendationItem-module__name--m5Yv9.vkuiHeadline--sizeY-compact.vkuiHeadline--level-2 {
+    color: white;
+    font-size: 13px;
+}
+.TextClamp-module__singleLine--mRCrF.UserRecommendationItem-module__description--K8mIn {
+    color: #ccc;
+}
+span.vkuiButton__content {
+    font-size: 12px !important;
+}
+span.TextClamp-module__singleLine--mRCrF.UserRecommendationItem-module__text--ka89c {
+    color: #ccc;
+}
+}
+
+@-moz-document url-prefix("https://vk.com/im") {
+.page_block.ui_rmenu._im_right_menu.ui_rmenu_pr {
+    display: flex;
+    max-width: 794px;
+    width: 778px;
+    position: relative;
+    left: -566px;
+}
+.im-page--header.ui_search._im_dialogs_search {
+    margin-top: 6px;
+    width: 792px;
+    max-width: 1000px;
+}
+.im-page.js-im-page.im-page_classic {
+    margin-top: 130px;
+    width: 794px !important;
+}
+.im-page--dialogs._im_page_dialogs.page_block {
+    padding: 0;
+    width: 794px;
+}
+.im-page--header.ui_search._im_dialogs_search {
+    margin-top: 6px;
+    width: 794px;
+    max-width: 1000px;
+}
+.im-right-menu .ui_rmenu_item {
+    text-overflow: unset;
+    margin-right: 10px;
+}
+.im-page--chat-input._im_chat_input_w {
+    width: 794px !important;
+}
+.im-chat-input.im-chat-input_classic .im-chat-input--textarea {
+    width: 685px;
+}
+.im-page--chat-header._im_dialog_header {
+    width: 794px;
+}
+.im-page_classic.im-page .im-mess-stack {
+    max-width: 794px;
+}
+.im-page_classic.im-page .im-mess:not(.im-mess_fwd).im-mess_unread:not(.im-mess_selected):not(.im-mess_light) {
+    max-width: 794px;
+}
+.im-page--chat-header._im_dialog_header {
+    margin-top: -40px;
+}
+.im-page--chat-header-in {
+    border-radius: 0px !important;
+}
+.im-page--toolsw {
+    border-radius: 0px !important;
+}
+li.im-mess._im_mess.im-mess_reactions._im_mess_632555 {
+    width: 786px !important;
+    max-width: 1000px !IMPORTANT;
+}
+li.im-mess._im_mess.im-mess_unread._im_mess_unread.im-mess_out.im-mess_editable.im-mess_reactions._im_mess_632559.im-mess_selected {
+    width: 786px !important;
+    max-width: 1000px;
+}
+}
+
+@-moz-document url-prefix("https://vk.com/groups") {
+.page_block.ui_rmenu.ui_rmenu_pr._ui_rmenu_auto_expand {
+    display: flex;
+    width: 794px;
+    position: relative;
+    left: -449px;
+}
+div#wide_column {
+    margin-top: 0px;
+    width: 794px;
+}
+.page_block.ui_rmenu.ui_rmenu_pr._ui_rmenu_auto_expand {
+    display: none;
+}
+div#narrow_column {
+    display: none;
+}
+}
